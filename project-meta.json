@@ -1,0 +1,11 @@
+
+{
+  "curso": "PROJETO DE PROGRAMAÇÃO",
+  "disciplina": "Orientação a Objetos",
+  "tema_escolhido": "1",
+  "linguagem": "Java",
+  "gerenciador_dependencias": "Maven",
+  "integrantes": [
+    {"nome": "Alirio Jose Muricy Junior", "github_username": "alirioafya"},
+  ]
+}
