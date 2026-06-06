@@ -1,0 +1,6 @@
+public enum StatusPet {
+    RESGATADO,
+    EM_TRATAMENTO,
+    DISPONIVEL_PARA_ADOCAO,
+    ADOTADO
+}
