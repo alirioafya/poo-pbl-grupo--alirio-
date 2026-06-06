@@ -1,0 +1,5 @@
+public enum StatusAdoçao {
+    EM_ANALISE,
+    APROVADA,
+    REPROVADA
+}
