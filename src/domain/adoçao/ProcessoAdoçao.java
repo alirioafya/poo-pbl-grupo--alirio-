@@ -1,5 +1,6 @@
 public class ProcessoAdocao {
 
+    private final Long id;
     private final Pet pet;
     private final Adotante adotante;
     private final Entrevista entrevista;
@@ -7,16 +8,21 @@ public class ProcessoAdocao {
     private StatusAdocao status;
 
     public ProcessoAdocao(
+            
+            id id,
             Pet pet,
             Adotante adotante,
             Entrevista entrevista) {
-
+        
+        this.id = id
         this.pet = pet;
         this.adotante = adotante;
         this.entrevista = entrevista;
         this.status = StatusAdocao.EM_ANALISE;
     }
-
+      public Long getId() {
+        return id;
+      }
     public void aprovar() {
 
         if (!pet.estaAptoParaAdocao()) {
