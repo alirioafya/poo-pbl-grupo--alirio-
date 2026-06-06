@@ -1,0 +1,16 @@
+public class Entrevista {
+
+    private boolean aprovada;
+
+    public void aprovar() {
+        aprovada = true;
+    }
+
+    public void reprovar() {
+        aprovada = false;
+    }
+
+    public boolean foiAprovada() {
+        return aprovada;
+    }
+}
