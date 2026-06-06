@@ -16,4 +16,8 @@ public class Adotante {
         this.cpf = cpf;
         this.email = email;
     }
+
+    public Long getId() {
+        return id;
+    }
 }
