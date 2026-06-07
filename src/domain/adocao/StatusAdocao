@@ -1,4 +1,4 @@
-public enum StatusAdoçao {
+public enum StatusAdocao {
     EM_ANALISE,
     APROVADA,
     REPROVADA
