@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class InMemoryPetRepository implements PetRepository {
+public class MemoriaPetRepository implements PetRepository {
 
 private final List<Pet> pets = new ArrayList<>();
 
