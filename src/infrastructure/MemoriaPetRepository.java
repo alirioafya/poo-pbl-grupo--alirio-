@@ -1,7 +1,7 @@
 package infrastructure.memory;
 
 import domain.pet.Pet;
-import infrastructure.repositories.PetRepository;
+import infrastructure.PetRepository;
 
 import java.util.ArrayList;
 import java.util.List;
